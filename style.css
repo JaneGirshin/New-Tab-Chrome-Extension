@@ -16,6 +16,10 @@ body {
     background-color: lightgray;
 }
 
+ul {
+    list-style: none;
+}
+
 header {
     width: 100%;
     height: 120px;
@@ -39,10 +43,6 @@ header li, a {
     font-size: 30px;
     color: #cccccc;
     text-decoration: none;
-}
-
-header .nav-links {
-    list-style: none;
 }
 
 header .nav-links li {
@@ -86,9 +86,28 @@ form input {
     right: 0;
     padding: 0 20px 0 20px;
     cursor: pointer;
-    transition: all 0.3s ease 0s
+    transition: all 0.3s ease 0s;
 }
 
 .search-icon:hover {
     background-color: lightslategray;
+}
+
+.recently-visited {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.visited-links {
+    margin: 10px auto;
+}
+
+.visited-links li a {
+    font-size: 20px;
+    color: #5e5e5e;
+    transition: all 0.3s ease 0s;
+}
+
+.visited-links li a:hover {
+    color: lightslategray;
 }
