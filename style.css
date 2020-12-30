@@ -51,7 +51,7 @@ header .nav-links li {
 }
 
 header .nav-links li a {
-    transition: all 0.3s ease 0s;
+    transition: 0.3s;
 }
 
 header .nav-links li a:hover {
@@ -86,7 +86,7 @@ form input {
     right: 0;
     padding: 0 20px 0 20px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: 0.3s;
 }
 
 .search-icon:hover {
@@ -105,9 +105,28 @@ form input {
 .visited-links li a {
     font-size: 20px;
     color: #5e5e5e;
-    transition: all 0.3s ease 0s;
+    transition: 0.3s;
 }
 
 .visited-links li a:hover {
+    color: lightslategray;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgrey;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+footer a:hover {
     color: lightslategray;
 }
