@@ -1,5 +1,9 @@
 {
-    "name": "New Tab Extantion",
+    "name": "New Tab Extension",
     "version": "0.01",
+    "description": "Customizes new tab",
+    "chrome_url_overrides":{
+        "newtab": "newtab.html"
+    },
     "manifest_version": 2
 }
