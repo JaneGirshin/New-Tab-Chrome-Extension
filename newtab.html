@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Tab Extension</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <img class="logo" src="logo.png" alt="logo">
         <nav>
-            <ul class="navLinks">
+            <ul class="nav-links">
                 <li><a href="https://www.gmail.com/">Gmail</a></li>
                 <li><a href="https://www.youtube.com/">YouTube</a></li>
                 <li><a href="https://www.yahoo.com/">Yahoo</a></li>
             </ul>
         </nav>
     </header>
+
+    <div class="wrapper">
+        <form action="https://www.google.com/search?q=" method="get">
+            <input class="search-text" type="text" name="q"/>
+            <input class="search-icon" type="submit" value="&#128269;"/>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>

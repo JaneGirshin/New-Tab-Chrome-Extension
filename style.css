@@ -41,19 +41,54 @@ header li, a {
     text-decoration: none;
 }
 
-header .navLinks {
+header .nav-links {
     list-style: none;
 }
 
-header .navLinks li {
+header .nav-links li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-header .navLinks li a {
+header .nav-links li a {
     transition: all 0.3s ease 0s;
 }
 
-header .navLinks li a:hover {
+header .nav-links li a:hover {
     color: lightslategray;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 450px;
+    margin: 150px auto;
+}
+
+.wrapper form {
+    background: #ffffff;
+    width: 100%;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+form input {
+    height: 75px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+}
+
+.search-text {
+    padding: 0 0 0 20px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 0;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s
+}
+
+.search-icon:hover {
+    background-color: lightslategray;
 }
